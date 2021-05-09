@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    background: #ef0988;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+    &::after{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -100px;
+        top: -100px;
+        border-radius: 50%;
+        content: '';
+        background: #ffffff;
+    }
+    
+}
+
+.container{
+    position: relative;
+    content: '';
+    background: #ffdb00;
+    width: 100%;
+    height:625px;
+    border-bottom-left-radius: 350px;
+
+    
+    .primary{
+
+        &Navbar{
+            height: 15vh;
+
+            &Language{
+                list-style: none;
+                display: flex;
+                gap: 20px;
+                background: #ffffff;
+                position: absolute;
+                padding: 10px;
+                left: 40%;
+                top: -20px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                cursor: pointer;
+
+                &English{
+                    display: flex;
+                    color: #ef0988;
+
+                    &::after{
+                        content: '';
+                        background: rgb(202, 199, 199);
+                        width: 2px;
+                        height: 16px;
+                        margin-left: 15px;
+                    }
+                }
+                &Sinhala{
+                    display: flex;
+
+                    &::after{
+                        content: '';
+                        background: rgb(202, 199, 199);
+                        width: 2px;
+                        height: 16px;
+                        margin-left: 15px;
+                    }
+                }
+            }
+            &Sign{
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 80px;
+
+                &In{
+                    margin-top: 30px;
+                    margin-right: 10px;
+                    color: #ff2c49;
+                    background: #ffffff;
+                    font-size: 14px;
+                    border-radius: 18px;
+                    border-style: none;
+                    padding: 5px 20px 5px 20px;
+                    cursor: pointer;
+                }
+                &Close{
+                    margin-top: 30px;
+                    border-radius: 50%;
+                    border-style: none;
+                    position: absolute;
+                    right: 40px;
+                    top: -8px;
+                    padding: 12px;
+                    background: #ff2c49;
+                    color: #ffffff;
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+        &Body{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 80px;
+            
+            &Title{
+                margin-left: 50px;
+                font-size: 14px;
+                text-transform: uppercase;
+
+                span{
+                    font-size: 32px;
+                }
+                &Career{
+
+                    &[dataIsActive=true]{
+                        color: #ff2c49;
+                    }
+                }
+                &Learn{
+                   
+                    &[dataIsActive=true]{
+                        color: #ff2c49;
+                    }
+                }
+                &Entrepreneur{
+
+                    &[dataIsActive=true]{
+                        color: #ff2c49;
+                    }
+                }
+                p{
+                      cursor: pointer;
+                }
+            }
+            &Overview{
+                margin-top: 25px;
+                font-size: 16px;  
+                
+                &Title{
+                    cursor: pointer;
+
+                    &[dataIsActive=true]{
+                        color: #ff2c49;
+                    }
+                    span{
+                        padding-left: 125px;
+                    }
+                }
+                &Para1{
+                    span{
+                        padding-left: 80px;
+                    }
+                }
+                &Para2{
+                    span{
+                        padding-left: 125px;
+                    }
+                }
+                &Para3{
+                    span{
+                        padding-left: 125px;
+                    }
+                }
+                p{
+                    cursor: pointer;
+                }
+                
+            }
+            &Footer{
+                margin-top: 25px;
+                display: flex;
+
+                &Content{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    cursor: pointer;
+                    
+                    &Follow{
+
+                        color: #ff2c49;
+                    }
+                }
+               
+                &::before{
+                    content: '';
+                    background: rgb(119, 118, 118);
+                    height: 90%;
+                    width: 1px;
+                    margin: 20px;
+                }
+            }
+        }
+
+    }    
+}
