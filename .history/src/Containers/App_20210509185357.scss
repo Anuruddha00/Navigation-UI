@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     padding: 0;
@@ -43,7 +42,7 @@ body{
                 position: absolute;
                 padding: 10px;
                 left: 40%;
-                top: -3%;
+                top: -4%;
                 border-bottom-left-radius: 20px;
                 border-bottom-right-radius: 20px;
                 cursor: pointer;
@@ -75,14 +74,13 @@ body{
             &Sign{
                 display: flex;
                 justify-content: flex-end;
-                margin-right: 6%;
+                margin-right: 80px;
 
                 &In{
-                    margin-top: 2%;
+                    margin-top: 30px;
                     margin-right: 10px;
                     color: #ff2c49;
                     background: #ffffff;
-                    box-shadow: 0 2px 15px #9b9a9a;
                     font-size: 14px;
                     border-radius: 18px;
                     border-style: none;
@@ -90,7 +88,7 @@ body{
                     cursor: pointer;
                 }
                 &Close{
-                    margin-top:2%;
+                    margin-top: 30px;
                     border-radius: 50%;
                     border-style: none;
                     position: absolute;
@@ -107,46 +105,41 @@ body{
         &Body{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            margin: 6%;
+            margin: 80px;
             
             &Title{
-                margin-left: 10%;
+                margin-left: 50px;
                 font-size: 14px;
                 text-transform: uppercase;
-                display: flex;
-                flex-direction: column;
 
                 span{
                     font-size: 32px;
                 }
                 &Career{
+
                     &[dataIsActive=true]{
                         color: #ff2c49;
                     }
                 }
                 &Learn{
+                   
                     &[dataIsActive=true]{
                         color: #ff2c49;
                     }
                 }
                 &Entrepreneur{
+
                     &[dataIsActive=true]{
                         color: #ff2c49;
                     }
                 }
-                a{
-                    cursor: pointer;
-                    padding-top: 16px;
-                    color: #000000;
-                    text-decoration: none;
+                p{
+                      cursor: pointer;
                 }
             }
             &Overview{
-                margin-top: 6%;
+                margin-top: 25px;
                 font-size: 16px;  
-                display: flex;
-                flex-direction: column;
-               
                 
                 &Title{
                     cursor: pointer;
@@ -155,34 +148,31 @@ body{
                         color: #ff2c49;
                     }
                     span{
-                        padding-left: 43%;
+                        padding-left: 125px;
                     }
                 }
                 &Para1{
                     span{
-                        padding-left: 28%;
+                        padding-left: 80px;
                     }
                 }
                 &Para2{
                     span{
-                        padding-left: 40%;
+                        padding-left: 125px;
                     }
                 }
                 &Para3{
                     span{
-                        padding-left: 40%;
+                        padding-left: 125px;
                     }
                 }
-                a{
+                p{
                     cursor: pointer;
-                    padding-top: 16px;
-                    color: #000000;
-                    text-decoration: none;
                 }
                 
             }
             &Footer{
-                margin-top: 6%;
+                margin-top: 25px;
                 display: flex;
 
                 &Content{
@@ -192,22 +182,8 @@ body{
                     cursor: pointer;
                     
                     &Follow{
+
                         color: #ff2c49;
-                    }
-                    &Title{
-                        display: flex;
-                        flex-direction: column;
-                        a{
-                            text-decoration: none;
-                            color: #000000;
-                            margin-top: 10px;
-                            
-                        }
-                    }
-                    &Icons{
-                        display: flex;
-                        gap: 1em;
-                        
                     }
                 }
                
@@ -216,7 +192,7 @@ body{
                     background: rgb(119, 118, 118);
                     height: 90%;
                     width: 1px;
-                    margin: 4%;
+                    margin: 20px;
                 }
             }
         }

@@ -1,10 +1,6 @@
 import React from 'react';
 import './App.scss';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import YouTubeIcon from '@material-ui/icons/YouTube';
 
 function App () {
     return(
@@ -28,10 +24,10 @@ function App () {
                         <a href='' className='primaryBodyTitleEntrepreneur' dataIsActive='false' >Grow as an <br/> <span>Entrepreneur</span></a>
                     </div>
                     <div className='primaryBodyOverview'>
-                        <a href='' className='primaryBodyOverviewTitle' dataIsActive='true'>Overview <span><ArrowForwardIcon/></span></a>
-                        <a href='' className='primaryBodyOverviewPara1'>I want to get better<br/> at my current job<span><ArrowForwardIcon/></span></a>
-                        <a href='' className='primaryBodyOverviewPara2'>I want to know what<br/> I’m good at<span><ArrowForwardIcon/></span></a>
-                        <a href='' className='primaryBodyOverviewPara3'>I want to find a job<br/> I’m good at<span><ArrowForwardIcon/></span></a>
+                        <a href='' className='primaryBodyOverviewTitle' dataIsActive='true'>Overview <span>{ArrowForwardIcon}</span></a>
+                        <a href='' className='primaryBodyOverviewPara1'>I want to get better<br/> at my current job<span>@</span></a>
+                        <a href='' className='primaryBodyOverviewPara2'>I want to know what<br/> I’m good at<span>@</span></a>
+                        <a href='' className='primaryBodyOverviewPara3'>I want to find a job<br/> I’m good at<span>@</span></a>
                     </div>
                     <div className='primaryBodyFooter'>
                         <div className='primaryBodyFooterContent'>
@@ -43,12 +39,7 @@ function App () {
                             </div>
                             <div className='primaryBodyFooterContentFollow'>
                                 <p>Follow us on</p>
-                                <div className='primaryBodyFooterContentIcons'>
-                                    <a target='_blank' href=''><FacebookIcon /></a> 
-                                    <a target='_blank' href=''><TwitterIcon/></a>
-                                    <a target='_blank' href=''><InstagramIcon/></a> 
-                                    <a target='_blank' href=''><YouTubeIcon/></a>
-                                </div>
+
                             </div>
                         </div>
                     </div>

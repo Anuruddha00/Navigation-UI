@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     padding: 0;
@@ -206,8 +205,10 @@ body{
                     }
                     &Icons{
                         display: flex;
-                        gap: 1em;
-                        
+
+                        a{
+                            padding-left: 4px;
+                        }
                     }
                 }
                

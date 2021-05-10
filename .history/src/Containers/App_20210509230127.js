@@ -44,8 +44,8 @@ function App () {
                             <div className='primaryBodyFooterContentFollow'>
                                 <p>Follow us on</p>
                                 <div className='primaryBodyFooterContentIcons'>
-                                    <a target='_blank' href=''><FacebookIcon /></a> 
-                                    <a target='_blank' href=''><TwitterIcon/></a>
+                                    <a className='primaryBodyFooterContentIconsFacebook' target='_blank' href=''><FacebookIcon /></a> 
+                                    <a className='primaryBodyFooterContentIconsTwitter' target='_blank' href=''><TwitterIcon/></a>
                                     <a target='_blank' href=''><InstagramIcon/></a> 
                                     <a target='_blank' href=''><YouTubeIcon/></a>
                                 </div>

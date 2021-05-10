@@ -2,9 +2,6 @@ import React from 'react';
 import './App.scss';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import YouTubeIcon from '@material-ui/icons/YouTube';
 
 function App () {
     return(
@@ -43,12 +40,8 @@ function App () {
                             </div>
                             <div className='primaryBodyFooterContentFollow'>
                                 <p>Follow us on</p>
-                                <div className='primaryBodyFooterContentIcons'>
-                                    <a target='_blank' href=''><FacebookIcon /></a> 
-                                    <a target='_blank' href=''><TwitterIcon/></a>
-                                    <a target='_blank' href=''><InstagramIcon/></a> 
-                                    <a target='_blank' href=''><YouTubeIcon/></a>
-                                </div>
+                                <a target='_blank' href=''><FacebookIcon/></a> 
+                                <a target='_blank' href=''><FacebookIcon/></a>
                             </div>
                         </div>
                     </div>
