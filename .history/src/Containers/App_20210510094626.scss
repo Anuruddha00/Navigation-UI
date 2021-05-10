@@ -106,7 +106,8 @@ body{
                     padding: 12px;
                     background: #ff2c49;
                     color: #ffffff;
-                    cursor: pointer;   
+                    cursor: pointer;
+                    
                 }
             }
 
@@ -133,6 +134,7 @@ body{
                         padding: 4px;
                     }
                 }
+
             }
         }
         &Body{
@@ -174,13 +176,14 @@ body{
 
                 @media(max-width: 480px){
                     margin-top: -8px;
-                    font-size: 10px;
+                    font-size: 8px;
                     margin-left: 0;
                     
                     span{
                         font-size: 16px;
                     }          
                 }
+
             }
             &Overview{
                 margin-top: 6%;
@@ -220,10 +223,10 @@ body{
                     color: #000000;
                     text-decoration: none;
                 }
-
                 @media(max-width: 480px){
                     margin-left: 100%;
-                }   
+                }
+                
             }
             &Footer{
                 margin-top: 6%;
